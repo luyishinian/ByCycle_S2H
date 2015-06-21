@@ -1,0 +1,262 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	
+}
+#main_right{
+	
+	position:fixed;
+	top:0px;
+	right:0px;
+	
+	background-color: black;
+	width:35px;
+	height:100%;
+	z-index: 3;
+	
+}
+#main_right img.cycle{
+	position: relative;
+	top:120px;
+	width: 35px;
+	height: 35px;
+}
+#right_shop{
+	position: relative;
+	top:150px;
+	width: 35px;
+	height: 110px;
+	border-top: 1px white solid;
+	border-bottom: 1px white solid;
+	
+}
+#right_shop:HOVER{
+	background-color:#C40000;
+	cursor: hand;
+}
+#main_right img.shop{
+	position: relative;
+	top:5px;
+	width: 35px;
+	height: 35px;
+}
+#main_right p.shop{
+	position: relative;
+	top:-5px;
+	left: 10px;
+	color: white;
+	font-size: 17px;
+}
+#main_menu{
+	position: relative;
+	top:160px;
+	width: 35px;
+	height: auto;
+	
+}
+#main_menu ul{
+	position: relative;
+	top:-10px;
+	
+}
+#main_menu ul li{
+	position:relative;
+	right:40px;
+	width:35px;
+	height:35px;
+	font-size:20px;
+	color:white;
+	text-align:center;
+	line-height:30px;
+	list-style: none;
+}
+#main_menu a{
+	
+}
+#main_menu li:HOVER{
+	background-color:#C40000;
+	cursor: hand;
+}
+#a_assets{
+	
+}
+#a_attention{
+	margin-top: 15px;
+	
+}
+#a_collection{
+	margin-top: 15px;
+	
+}
+#div_assets,#div_attention,#div_collection{
+	position: fixed;
+	display:none;
+	right:80px;
+	
+	height:35px;
+	width:80px;
+	text-align:center;
+	line-height:33px;
+	color:white;
+	font-size:14px;
+	background-color: #333;
+	opacity:0;
+	border-radius:2px;
+	z-index: 2;
+}
+#div_assets {
+	top:312px;
+}
+#div_attention{
+	top:362px;
+}
+#div_collection{
+	top:412px;
+}
+#main_menu_show{
+	display:none;
+	position: absolute;
+	width: 180px;
+	height: 100%;
+	top:0px;
+	left:40px;
+	//background-color: #111;
+	z-index: 99;
+}
+#main_menu_show div.user_shopcart{
+	//display:none;
+	position: relative;
+	width: 180px;
+	height: 100%;
+	background-color: #e6e6e6;
+	
+}
+#main_menu_show div.user_shopcart div.top{
+	position: relative;
+	width: 180px;
+	height: 20px;
+	background-color: #FFF;
+	
+}
+#main_menu_show div.user_shopcart div.top input{
+	position:absolute;
+	left: 5px;
+}
+#main_menu_show div.user_shopcart div.top label {
+	position:absolute;
+	top:2px;
+	left:23px;
+	font-size:1px;
+	
+	color: #666;
+	font-weight: 300;
+}
+#main_menu_show div.user_shopcart div.center{
+	position: relative;
+	width: 180px;
+	height: 100%;
+	
+	background-color: #E6E6E6;
+	
+}
+#main_menu_show div.user_shopcart div.center div.user_cycle{
+	position: relative;
+	width: 180px;
+	height: 80px;
+	border-top:1px #666 solid;
+	background-color: #FFF;
+}
+#main_menu_show div.user_shopcart div.center div.user_cycle input.check{
+	position:absolute;
+	left: 5px;
+	top:40px;
+	
+}
+#main_menu_show div.user_shopcart div.center div.user_cycle label.message{
+	position:absolute;
+	left: 5px;
+	top:5px;
+	font-size: 10px;
+	font-weight: 600;
+	color: #666;
+	
+}
+#main_menu_show div.user_shopcart div.center div.user_cycle  img.cycle_img{
+	position:absolute;
+	width: 50px;
+	height: 50px;
+	top:25px;
+	left: 30px;
+}
+#main_menu_show div.user_shopcart div.center div.user_cycle label.count{
+	position:absolute;
+	left: 100px;
+	top:42px;
+	font-size: 10px;
+	font-weight: 600;
+	color: #666;
+	
+}
+#main_menu_show div.user_shopcart div.center div.user_cycle label.price{
+	position:absolute;
+	left: 155px;
+	top:42px;
+	font-size: 10px;
+	font-weight: 600;
+	color: #666;
+	
+}
+#main_menu_show div.user_shopcart div.center div.user_cycle button.delete_cart{
+	display:none;
+	position: absolute;
+	left: 120px;
+	top:36px;
+	background-color: transparent;
+	font-size: 15px;
+	font-weight: 900;
+	border:none;
+	cursor: hand;
+	color:#CF0000;
+}
+#main_menu_show div.user_shopcart div.bottom{
+	position:fixed;
+	bottom: 0px;
+	width: 180px;
+	height: 70px;
+	
+}
+#main_menu_show div.user_shopcart div.bottom label.hascollect{
+	position:absolute;
+	left: 5px;
+	top:5px;
+	font-size: 10px;
+	font-weight: 600;
+	color: #222;
+	
+}
+#main_menu_show div.user_shopcart div.bottom label.all_price{
+	position:absolute;
+	left: 135px;
+	top:5px;
+	font-size: 10px;
+	font-weight: 600;
+	color: #CF0000;
+}
+#main_menu_show div.user_shopcart div.bottom button.sumbit{
+	position:absolute;
+	left:5px;
+	top:25px;
+	width: 170px;
+	height: 30px;
+	text-align: center;
+	font-size: 20px;
+	color: #e6e6e6;
+	background-color: #555;
+	border: none;
+	
+}
+#main_menu_show div.user_shopcart div.bottom button.sumbit:HOVER{
+	color: white;
+	background-color: #CF0000;
+}

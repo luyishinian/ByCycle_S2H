@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ByCycle_S2H">
+        <wb-resource deploy-path="/" source-path="/WebRoot"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="/ByCycle_S2H"/>
+        <property name="java-output-path" value="/ByCycle_S2H/WebRoot/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>

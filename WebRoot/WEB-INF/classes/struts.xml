@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+   <constant name="struts.multipart.maxSize" value="10701096"/> 
+       <package name="org" namespace= "/" extends="struts-default">  
+        
+        <action name="testlogin" class="com.wjf.action.TestLogin" >      
+            <result name="success">main.jsp</result>  
+            <result name="error">fail.jsp</result>     
+        </action> 
+        
+        <action name="testmanage" class="com.wjf.action.TestManage" >      
+            <result name="success">manage.jsp</result>  
+            <result name="error">fail.jsp</result>     
+        </action> 
+        
+        <action name="deleteuser" class="com.wjf.action.DeleteUser" >      
+                
+        </action> 
+         <action name="deletecycle" class="com.wjf.action.DeleteCycle" >      
+                
+        </action>
+        
+         <action name="deleteshopcart" class="com.wjf.action.DeleteShopcart" >      
+                
+        </action>
+        
+        
+        <action name="testregist" class="com.wjf.action.TestRegist" >      
+            <result name="success">main.jsp</result>  
+            <result name="error">fail.jsp</result>     
+        </action>
+        
+        <action name="changemessage" class="com.wjf.action.ChangeMessage" >      
+            <result name="success">personal.jsp</result>  
+            <result name="error">fail.jsp</result>     
+        </action>
+        
+        <action name="testcycle" class="com.wjf.action.TestCycle" >      
+            <result name="success">cycle.jsp</result>  
+                
+        </action>
+        
+        
+        </package>
+         <package name="orgjson" namespace= "/" extends="struts-default,json-default">
+        <action name="shopcartcycle" class="com.wjf.action.ShopcartCycle" >      
+              <result type="json" name="success">
+                         <param name="root">jsonMap</param>
+                    </result>
+                
+        </action>
+        
+        <action name="changecycle" class="com.wjf.action.ChangeCycle" >      
+                <result type="json" name="success">
+                         <param name="root">cycleMap</param>
+                    </result>
+        </action> 
+        
+        <action name="createcycle" class="com.wjf.action.CreateCycle" >      
+                <result type="json" name="success">
+                         <param name="root">dataMap</param>
+                    </result>
+        </action> 
+        
+        <action name="shoppingcart" class="com.wjf.action.ShoppingCart" >      
+             <result type="json" name="success">
+                         <param name="root">dataMap</param>
+                    </result>
+                
+        </action>
+        
+        <action name="changepic" class="com.wjf.action.ChangePIC" >      
+             
+                
+        </action>
+        </package>
+</struts>    

@@ -1,0 +1,617 @@
+@CHARSET "UTF-8";
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color:white;
+	margin: 0px;
+	
+}
+#manager_div{
+	position: relative;
+	width: 1365px;
+	height: 20px;
+	background-color: #000;
+	
+}
+#manager_div label.manager_name{
+	position: relative;
+	left: 1200px;
+	font-size: 15px;
+	color: #AAA;
+}
+#manager_div label.manager_name a:HOVER{
+	
+	color: #FFF;
+	font-weight: 900;
+}
+#manager_menu{
+	display:none;
+	position: absolute;
+	left:1200px;
+	top:20px;
+	width: 60px;
+	height: 50px;
+	z-index: 5;
+	
+	
+}
+#manager_menu a{
+	
+	display: block;
+	width: 60px;
+	height: 20px;
+	
+	font-size: 15px;
+	font-weight: 600;
+	background-color: #E6E6E6;
+	
+}
+#manager_menu a:HOVER{
+	color: white;
+	cursor: hand;
+}
+#manager_menu a.message{
+	
+}
+#manager_menu a.message:HOVER{
+	background-color:#0A83FF; 
+}
+#manager_menu a.exit{
+	
+}
+#manager_menu a.exit:HOVER{
+	background-color:#CF0000; 
+}
+#manager_div label.manager_name:HOVER{
+	color: #CF0000;
+	cursor: hand;
+}
+#top{
+	position: relative;
+	width: 1365px;
+	height: 100px;
+	background-color: rgba(0,0,0,.8);
+}
+#center{
+	position: relative;
+	width: 1365px;
+	height: auto;
+	min-height: 800px;
+	//background-color: red;
+	overflow:hidden;
+	zoom:1;
+	
+}
+#center #left_menu{
+	position: relative;
+	left:0px;
+	top:0px;
+	
+	float: left;
+	width: 200px;
+	height:500px;
+	//background-color: #AAA;
+	
+	
+}
+#left_menu a.nav_left_menu{
+	position:relative;
+	margin-top:10px;
+	display: block;
+	text-align: center;
+	width:200px;
+	height: 40px;
+	background-color: rgba(10,111,255,.2);
+	font-size: 20px;
+	line-height: 40px;
+	color: #6E6E6E;
+	font-weight: 600;
+	border-radius:10px;
+	
+	
+}
+#left_menu a.nav_left_menu:HOVER{
+	color: white;
+	background-color: #0A83FF;
+	cursor: hand;
+	border-shadow: 1px 2px 3px #0A83FF;
+}
+#center #main{
+	position: relative;
+	left:20px;
+	top:0px;
+	float: left;
+	
+	width: 1145px;
+	min-height:500px;
+	//background-color: purple;
+	height:auto;
+	//overflow:auto;
+	
+	
+}
+#main div.main_div{
+    display:none;
+	position: relative;
+	left: 0px;
+	top:0px;
+	width: 1145px;
+	min-height:500px;
+	//background-color: #AAA;
+	height:auto;
+	
+}
+#main div.main_div label.manage_sign{
+	position: relative;
+	left: 20px;
+	top:10px;
+	color: #0A83FF;
+	font-size: 25px;
+	font-weight: 800;
+}
+#main div.main_div div.admin_user{
+	position: relative;
+	width: 1145px;
+	height: 100px;
+	margin-top: 2px;
+	box-shadow:1px 2px 2px #E6E6E6; 
+}
+#main div.main_div div.admin_user img{
+	position:absolute;
+	left:10px;
+	top:10px;
+	width: 80px;
+	height:80px;
+	border-radius:15px;
+}
+
+#main div.main_div div.admin_user label{
+	position: absolute;
+	color: black;
+	font-size: 15px;
+	font-weight: 600;
+}
+#main div.main_div div.admin_user label.name{
+	top:15px;
+	left: 95px;
+	font-size:25px;
+	color: #0A83FF;
+	font-weight: 900;
+	
+}
+#main div.main_div div.admin_user label.sex{
+	color:#333;
+	font-weight:200;
+	left: 95px;
+	top:45px;
+}
+#main div.main_div div.admin_user label.birth{
+	color:#333;
+	font-weight:200;
+	left: 95px;
+	top:65px;
+}
+#main div.main_div div.admin_user label.login_time{
+	color:#333;
+	font-weight:200;
+	top:65px;
+	left: 390px;
+}
+#main div.main_div div.admin_user label.regist_time{
+	color:#333;
+	font-weight:200;
+	top:45px;
+	left: 390px;
+}
+#main div.main_div div.admin_user button{
+	position: absolute;
+	height: 20px;
+	border: none;
+	background-color: transparent;
+	font-weight: 600;
+	font-size: 15px;
+}
+#main div.main_div div.admin_user button:HOVER{
+	box-shadow:1px 2px 2px #AAA;
+	color: white;
+	cursor: hand;
+}
+#main div.main_div div.admin_user button.look_order{
+	width:120px;
+	top:70px;
+	left: 770px;
+	color:#555;
+	background-color:#0A83FF; 
+	
+	
+}
+#main div.main_div div.admin_user button.look_order:HOVER{
+	color:white;
+}
+#main div.main_div div.admin_user button.delete_user{
+	width:60px;
+	top:70px;
+	left: 920px;
+	background-color: #CF0000;
+}
+#main div.main_div div.cycle_manager{
+	position: relative;
+	width: 1145px;
+	height: 150px;
+	margin-top: 2px;
+	box-shadow:1px 2px 2px #E6E6E6;
+	
+}
+#main div.main_div div.cycle_manager img.c_img{
+	position: absolute;
+	left:10px;
+	top:10px;
+	width:100px;
+	height: 100px;
+	border-radius:15px;
+	
+	
+}
+#main div.main_div div.cycle_manager label{
+	position: absolute;
+	font-weight: 200;
+}
+#main div.main_div div.cycle_manager label.c_title{
+
+	top:15px;
+	left: 115px;
+	color: #0A83FF;
+	font-size: 20px;
+	font-weight: 800;
+}
+#main div.main_div div.cycle_manager label.c_message{
+	
+	top:50px;
+	left: 135px;
+	width:900px;
+	font-size:15px;
+	color:#333;
+	font-weight: 600;
+	word-wrap:break-word;
+}
+#main div.main_div div.cycle_manager label.c_address{
+	
+	top:95px;
+	font-size:10px;
+	
+	font-weight: 900;
+	left: 135px;
+}
+#main div.main_div div.cycle_manager label.c_count{
+	top:15px;
+	left: 815px;
+	font-size: 10px;
+	font-weight: 900;
+}
+#main div.main_div div.cycle_manager label.c_collect{
+	top:15px;
+	left: 885px;
+	font-size: 10px;
+	font-weight: 900;
+}
+#main div.main_div div.cycle_manager label.c_price{
+	top:15px;
+	left: 955px;
+	font-size: 10px;
+	font-weight: 900;
+}
+#main div.main_div div.cycle_manager button{
+	position: absolute;
+	top:115px;
+	width:20px;
+	background-color: transparent;
+	font-size: 15px;
+	font-weight:600;
+	color:#333;
+	border:none;
+	//box-shadow:1px 2px 2px #FFF;
+	border-radius:5px;
+}
+#main div.main_div div.cycle_manager button:HOVER{
+	cursor: hand;
+    color: white;
+    box-shadow:1px 2px 2px #AAA;
+}
+#main div.main_div div.cycle_manager button.add_message_pic{
+	left: 730px;
+	width: 120px;
+	background-color: #0A83FF;
+}
+#main div.main_div div.cycle_manager button.update_cycle{
+	left: 860px;
+	width: 120px;
+	background-color: #0A83FF;
+}
+#main div.main_div div.cycle_manager button.delete_cycle{
+	left: 1000px;
+	width: 60px;
+	color:#000;
+	background-color: #CF0000;
+}
+#main div.main_div div.cycle_manager div.update_cycle_div{
+	display:none;
+	position: absolute;
+	width:1100px;
+	height:240px;
+	background-color: #E6E6E6;
+	z-index: 10;
+	font-size:15px;
+	font-weight: 200px;
+	border-radius:20px;
+	
+}
+#main div.main_div div.cycle_manager div.update_cycle_div img.c_img{
+	width: 150px;
+	height: 150px;
+	
+}
+#main div.main_div div.cycle_manager div.update_cycle_div span.file_span{
+ 	position:absolute;
+ 	left:20px;
+ 	top:170px;
+    width:120px;
+    height:20px;
+    
+    display:inline-block;
+    border:none;
+    line-height:17px;
+    text-align:center;
+    font-size: 15px;
+    color:#333;
+    font-weight:600;
+    background-color: #0A83FF;
+    
+    overflow:hidden;
+    border-radius:5px;
+    
+ }
+#main div.main_div div.cycle_manager div.update_cycle_div span.file_span:hover{
+ 	
+	box-shadow:1px 2px 2px #AAA;
+ 	color:white;
+ 	
+ }
+#main div.main_div div.cycle_manager div.update_cycle_div input.file{
+    font-size: 15px;
+    width:120px;
+    height:50px;
+    cursor: hand; 
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    
+}
+#main div.main_div div.cycle_manager div.update_cycle_div label {
+	position: absolute;
+	font-weight: 600;
+	font-size: 20px;
+	color: #0A83FF;
+}
+#main div.main_div div.cycle_manager div.update_cycle_div label.c_title_change{
+	left: 220px;
+	top:5px;
+}
+#main div.main_div div.cycle_manager div.update_cycle_div label.c_message_change{
+	left: 220px;
+	top:30px;
+	
+}
+#main div.main_div div.cycle_manager div.update_cycle_div label.c_address_change{
+	left: 220px;
+	top:80px;
+}
+#main div.main_div div.cycle_manager div.update_cycle_div label.c_count_change{
+	left: 220px;
+	top:105px;
+}
+#main div.main_div div.cycle_manager div.update_cycle_div label.c_price_change{
+	left: 220px;
+	top:130px;
+}
+#main div.main_div div.cycle_manager div.update_cycle_div textarea.input_title_change {
+	position: absolute;
+	left: 350px;
+	top:5px;
+	width: 700px;
+	height: 20px;
+	background-color: transparent;
+}
+#main div.main_div div.cycle_manager div.update_cycle_div textarea.input_message_change{
+	position: absolute;
+	left: 350px;
+	top:30px;
+	width: 700px;
+	height: 40px;
+}
+#main div.main_div div.cycle_manager div.update_cycle_div input{
+	position: absolute;
+}
+#main div.main_div div.cycle_manager div.update_cycle_div input.input_address_change{
+	left: 350px;
+	top:80px;
+}
+#main div.main_div div.cycle_manager div.update_cycle_div input.input_count_change{
+	left: 350px;
+	top:105px;
+}
+#main div.main_div div.cycle_manager div.update_cycle_div input.input_price_change{
+	left: 350px;
+	top:130px;
+}
+#main div.main_div div.cycle_manager div.update_cycle_div button{
+	position: absolute;
+	width: 120px;
+	height:20px;
+	border:none;
+	
+	
+}
+#main div.main_div div.cycle_manager div.update_cycle_div button.save_cycle{
+	left: 750px;
+	top:190px;
+	background-color: #0A83FF;
+}
+#main div.main_div div.cycle_manager div.update_cycle_div button.back_cycle{
+	left: 900px;
+	top:190px;
+	color:#000;
+	background-color: #CF0000;
+}
+#main div.main_div button.add_cycle{
+	position: relative;
+	width: 200px;
+	height: 30px;
+	margin-top: 50px;
+	left: 800px;
+	border: none;
+	background-color: #0A83FF;
+	color: #333;
+	font-size: 18px;
+	font-weight: 900;
+	border-radius:5px;
+}
+#main div.main_div button.add_cycle:HOVER {
+	color: white;
+	box-shadow:1px 2px 2px #AAA;
+	cursor: hand;
+}
+#Mask_div{
+	display:none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left:0px;
+	top:0px;
+	background-color: rgba(0,0,0,.9);
+	z-index: 5;
+}
+#main div.main_div div.add_cycle_div{
+	display:none;
+	position: absolute;
+	left:80px;
+	top:65px;
+	width:1000px;
+    height:250px;
+    background-color:#E6E6E6;
+	z-index: 20;
+	border-radius:20px;
+	color: #000;
+	font-size: 15px;
+	font-weight: 200;
+}
+#main div.main_div div.add_cycle_div div.new_cycle_img_div{
+	position: absolute;
+	left:60px;
+	top:30px;
+	width: 120px;
+	height: 120px;
+	border-radius:30px;
+	border:1px solid #000;
+	
+}
+#main div.main_div div.add_cycle_div div.add_cycle_div img{
+	width: 120px;
+	height: 120px;
+	border-radius:30px;
+}
+#main div.main_div div.add_cycle_div label{
+	position: absolute;
+	font-weight: 600;
+}
+#main div.main_div div.add_cycle_div label.new_title_label{
+	left: 250px;
+	top:20px;
+}
+#main div.main_div div.add_cycle_div label.new_message_label{
+	left: 250px;
+	top:50px;
+}
+#main div.main_div div.add_cycle_div label.new_address_label{
+	left: 250px;
+	top:110px;
+}
+#main div.main_div div.add_cycle_div label.new_count_label{
+	left: 250px;
+	top:140px;
+}
+#main div.main_div div.add_cycle_div label.new_price_label{
+	left: 250px;
+	top:170px;
+}
+#main div.main_div div.add_cycle_div textarea.new_title_input{
+	position: absolute;
+	top:20px;
+	left: 300px;
+	width: 600px;
+	height: 20px;
+}
+#main div.main_div div.add_cycle_div textarea.new_message_input {
+	position: absolute;
+	top:50px;
+	left: 300px;
+	width: 600px;
+	height: 50px;
+}
+#main div.main_div div.add_cycle_div input {
+	position: absolute;
+	width: 200px;
+	height: 20px;
+}
+#main div.main_div div.add_cycle_div input.new_address_input{
+	top:110px;
+	left: 300px;
+}
+#main div.main_div div.add_cycle_div input.new_count_input{
+	top:140px;
+	left: 300px;
+}
+#main div.main_div div.add_cycle_div input.new_price_input{
+	top:170px;
+	left: 300px;
+}
+#main div.main_div div.add_cycle_div button {
+	position: absolute;
+	height:20px;
+	font-weight: 600;
+	color: #333;
+	border: none;
+	border-radius:5px;
+	
+	
+}
+#main div.main_div div.add_cycle_div button:HOVER{
+	cursor: hand;
+	color: white;
+	box-shadow:1px 2px 2px #AAA;
+}
+#main div.main_div div.add_cycle_div button.add_new_cycle_img{
+	left:60px;
+	top:170px;
+	width:120px;
+	background-color: #0A83FF;
+}
+#main div.main_div div.add_cycle_div button.create_cycle{
+	left:760px;
+	top:190px;
+	width:100px;
+	background-color: #0A83FF;
+}
+#main div.main_div div.add_cycle_div button.add_div_back{
+	left:880px;
+	top:190px;
+	width:100px;
+	color:#000;
+	background-color: #CF0000;
+}
+#main div.main_div div.add_cycle_div button.add_div_back:HOVER {
+	color:white;
+}
+
+
+
+

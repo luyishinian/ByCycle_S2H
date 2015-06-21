@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ByCycle_S2H"
+  id="myeclipse.1432474384103"
+  context-root="/ByCycle_S2H"
+  j2ee-spec="5.0"
+  archive="ByCycle_S2H.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

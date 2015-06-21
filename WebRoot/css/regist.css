@@ -1,0 +1,223 @@
+@CHARSET "UTF-8";
+
+@font-face {
+    font-family: "ChantelliAntiquaRegular";
+    src: url("../font/KaushanScript-Regular.otf");
+}
+body {
+	background-color:#77DDFF;
+	background-image: url("../img/regist_bg.jpg");
+	background-size:100% 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0px;
+}
+#title_pic{
+	position:relative;
+	left:850px;
+	top:400px;
+	width: 60px;
+	height: 60px;
+	border-radius:15px;
+}
+#title_sign{
+	position: relative;
+	width:200px;
+	left:910px;
+	top:330px;
+	font-family: "ChantelliAntiquaRegular", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    cursor: default;
+    
+}
+p.sign_text{
+	position: relative;
+	width:200px;
+	font-family: "ChantelliAntiquaRegular", Arial, Helvetica, sans-serif;
+	color: #0A83FF;
+	font-size: 20px;
+	cursor: default;
+	
+}
+input.text{
+	position: relative;
+	
+	width: 220px;
+	height: 30px;
+	font-size: 20px;
+	color:white;
+	border: none;
+	background-color: transparent;
+	outline: none;
+	box-shadow:1px 2px 3px #0A83FF;
+}
+input.text:HOVER{
+    background-color: rgba(10,131,255,.3);
+}
+#user_div{
+	position: absolute;
+	left:400px;
+	top:10px;
+	width: 300px;
+	height: 150px;
+	
+	background-image: url("../img/png.png");
+	background-size:100% 100%;
+	transition-duration:2.5s;
+}
+#user_div:HOVER{
+    left: 320px;
+    
+}
+#user_div p.sign_text{
+	left:30px;
+	top:20px;
+}
+#user_div input.text{
+	left:30px;
+	top:10px;
+}
+
+#psd_div{
+	position: absolute;
+	left:30px;
+	top:140px;
+	width: 500px;
+	height: 250px;
+	
+	background-image: url("../img/png.png");
+	background-size:100% 100%;
+	transition-duration:2.5s;
+}
+
+#psd_div p.sign_text{
+	top:25px;
+	left:165px;
+}
+#psd_div input.text{
+	left:165px;
+	top: 10px;
+}
+#psd_div:HOVER{
+	left: 70px;
+}
+#rgt_div{
+	position: absolute;
+	left:500px;
+	top:300px;
+	width: 250px;
+	height: 125px;
+	
+	background-image: url("../img/png.png");
+	background-size:100% 100%;
+	transition-duration:2.5s;
+}
+#rgt_div:HOVER{
+	left: 470px;
+}
+#rgt_div input.regist{
+	position: relative;
+	left:20px;
+	top:50px;
+	width: 180px;
+	height: 30px;
+	font-size:20px;
+	color: #DDD;
+	background-color: rgba(10,131,255,.3);
+	box-shadow:1px 2px 3px #0A83FF;
+	border: none;
+	
+}
+#rgt_div input.regist:HOVER {
+	cursor: hand;
+	color: white;
+	background-color: #0A83FF;
+}
+#regist_div{
+	position: relative;
+	display:none;
+	left:150px;
+	top:80px;
+	width: 250px;
+	height: 400px;
+	background-color: rgba(255,255,255,.2);
+	border-radius:10px 10px 30px 30px;
+	box-shadow:1px 2px 3px #0A83FF;
+}
+#regist_div img.title_pic{
+	position: relative;
+	top:5px;
+	left:5px;
+	width: 45px;
+	height: 45px;
+	border-radius:5px;
+	
+}
+#regist_div label.title_sign{
+	position: relative;
+	left:20px;
+	color:white;
+	font-size: 20px;
+}
+
+#regist_div p.sign_text{
+	position: relative;
+	margin-top:10px;
+	left:5px;
+	color: white;
+	font-size: 20px;
+}
+#regist_div input.text{
+	position: relative;
+	margin-top:-15px;
+	
+	left:5px;
+	width: 220px;
+	height: 30px;
+	font-size: 20px;
+	color:white;
+	border: none;
+	background-color: transparent;
+	outline: none;
+	box-shadow:1px 2px 3px #0A83FF; 
+}
+#regist_div input.text:HOVER {
+	background-color: rgba(10,131,255,.3);
+	
+}
+#regist_div input.regist{
+	position: relative;
+	left:5px;
+	margin-top:50px;
+	width: 220px;
+	height: 30px;
+	font-size:20px;
+	color: #DDD;
+	background-color: rgba(10,131,255,.3);
+	box-shadow:1px 2px 3px #0A83FF;
+	border: none;
+	
+}
+#regist_div input.regist:HOVER {
+	cursor: hand;
+	color: white;
+	background-color: #0A83FF;
+}
+#sign_a{
+	position: absolute;
+	left:750px;
+	top:30px;
+	font-family: "ChantelliAntiquaRegular", Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	transform:rotate(-7deg);
+	cursor: default;
+}
+#sign_b{
+	position: absolute;
+	left:950px;
+	top:150px;
+	font-family: "ChantelliAntiquaRegular", Arial, Helvetica, sans-serif;
+	font-size: 80px;
+	color:white;
+	cursor: default;
+}
+

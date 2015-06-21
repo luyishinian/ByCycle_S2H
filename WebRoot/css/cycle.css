@@ -1,0 +1,365 @@
+@CHARSET "UTF-8";
+@font-face {
+    font-family: "Myfont_B";
+    src: url("../font/Chunkfive.otf");
+    
+}
+body {
+	background-color:#FFFFBB;
+	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0px;
+}
+#shop_message{
+	position: relative;
+	width: 1350px;
+	min-height:150px;
+	height: auto;
+	background-color: rgba(0,0,0,0.8);
+	//background-color: black;
+	z-index:-1;
+}
+#main{
+	position: relative;
+	width: 1350px;
+	min-height: 500px;
+	height:auto;
+	background-color:rgba(255,255,255,.6);
+	overflow:hidden;
+	zoom:1;
+	
+}
+#cycle_show{
+	position: relative;
+	float: left;
+	left:80px;
+	width: 1000px;
+	height:600px;
+	
+	
+	
+	
+}
+#cycle_show div.cycle_img{
+	position: relative;
+	float:left;
+	top:30px;
+	width: 400px;
+	height:600px;
+	
+	
+	
+}
+#cycle_show div.cycle_img div.big_img{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	border: 1px #AAA solid;
+	border-left: none;
+	border-radius:10px;
+}
+
+#cycle_show div.cycle_img div.big_img img{
+	position: relative;
+	width: 400px;
+	height:400px;
+}
+#cycle_show div.cycle_img div.small_img{
+	position: relative;
+	top:30px;
+	width: 400px;
+	height: 60px;
+	//background-color: yellow;
+}
+#cycle_show div.cycle_img div.small_img img {
+	position: relative;
+	left:15px;
+	margin-left:5px;
+	top:5px;
+	width: 50px;
+	height: 50px;
+	border-radius:10px;
+	cursor: hand;
+	
+}
+#cycle_show div.cycle_img div.cycle_collect{
+	position: relative;
+	top:50px;
+	width: 400px;
+	height: 30px;
+	
+	
+}
+#cycle_show div.cycle_img div.cycle_collect label.lb_share{
+	position: absolute;
+	top:5px;
+	left:30px;
+	font-size: 10px;
+	color: #AAA;
+	font-weight: 600;
+	
+}
+#cycle_show div.cycle_img div.cycle_collect label.lb_collect{
+	position: absolute;
+	top:5px;
+	left:100px;
+	font-size: 10px;
+	color: #AAA;
+	font-weight: 600;
+}
+#cycle_show div.cycle_img div.cycle_collect label.lb_report{
+	position: absolute;
+	top:5px;
+	right:0px;
+	font-size: 10px;
+	color: #AAA;
+	font-weight: 600;
+}
+#cycle_show div.cycle_word{
+	position: relative;
+	float:left;
+	top:30px;
+	left:20px;
+	width: 570px;
+	height: 600px;
+	
+}
+#cycle_show div.cycle_word div{
+	position: relative;
+	width:570px;
+}
+#cycle_show div.cycle_word div.cycle_message{
+	
+	height: 60px;
+	
+	
+}
+#cycle_show div.cycle_word div.cycle_message label.lb_a{
+	position: relative;
+	left:10px;
+	top:5px;
+	font-size: 20px;
+	font-weight: 900;
+}
+#cycle_show div.cycle_word div.cycle_message label.lb_b{
+	position: absolute;
+	left:12px;
+	top:35px;
+	font-size: 10px;
+	font-weight: 600;
+	color: #DD2727;
+}
+#cycle_show div.cycle_word div.cycle_price{
+	
+	height: 60px;
+	background-color: rgba(0,0,0,.3);
+}
+#cycle_show div.cycle_word div.cycle_price label.old_price{
+	position: absolute;
+	top:5px;
+	left: 10px;
+	font-size: 15px;
+	font-weight: 600px;
+	
+}
+#cycle_show div.cycle_word div.cycle_price label.new_price{
+	position: absolute;
+	top:25px;
+	left: 10px;
+	font-size: 15px;
+	
+}
+#cycle_show div.cycle_word div.cycle_price label.new_price a{
+	font-size: 25px;
+	font-weight: 900;
+	color: #CF0000;
+	
+}
+#cycle_show div.cycle_word div.cycle_freight{
+	height: 30px;
+	
+	
+}
+#cycle_show div.cycle_word div.cycle_freight label.lb_sign{
+	position: absolute;
+	top:5px;
+	left: 10px;
+	font-size: 10px;
+	font-weight: 600;
+}
+#cycle_show div.cycle_word div.cycle_freight label.freight{
+	position: absolute;
+	top:5px;
+	left:60px;
+	font-size: 10px;
+	color: #AAA;
+	font-weight: 600;
+}
+#cycle_show div.cycle_word div.cycle_volume{
+	height: 40px;
+    border-top:1px #AAA solid;
+    border-bottom:1px #AAA solid;
+}
+#cycle_show div.cycle_word div.cycle_volume ul{
+	position: absolute;
+	
+	margin: 0px;
+	padding: 0px;
+	width: 570px;
+	height: 40px;
+}
+#cycle_show div.cycle_word div.cycle_volume ul li{
+	position:relative;
+	list-style:none;
+	top:5px;
+	float: left;
+	
+	
+	width: 190px;
+	height:30px;
+	text-align: center;
+	
+}
+#cycle_show div.cycle_word div.cycle_volume ul li a{
+	position:relative;
+	top:5px;
+	display: block;
+	color: #AAA;
+	font-size: 15px;
+	font-weight: 600;
+	border-right: 1px #AAA solid;
+	height: 20px;
+	line-height: 20px;
+	
+	
+}
+#cycle_show div.cycle_word div.cycle_color{
+	height: 140px;
+	background-color: purple;
+}
+#cycle_show div.cycle_word div.cycle_count{
+	height: 40px;
+	
+}
+#cycle_show div.cycle_word div.cycle_count label.lb_count_sign{
+	position: absolute;
+	top:12px;
+	left:10px;
+	font-size: 15px;
+	color: #AAA;
+	font-weight: 600;
+	
+}
+#cycle_show div.cycle_word div.cycle_count input{
+	position: absolute;
+	top:5px;
+	left:100px;
+	font-size: 15px;
+	
+	font-weight: 600;
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px #AAA solid;
+}
+#cycle_show div.cycle_word div.cycle_count label.lb_count{
+	position: absolute;
+	top:12px;
+	left:160px;
+	font-size: 15px;
+	color: #AAA;
+	font-weight: 600;
+}
+#cycle_show div.cycle_word div.cycle_service{
+	height: 30px;
+	
+}
+#cycle_show div.cycle_word div.cycle_service label.lb_a{
+	position: absolute;
+	top:5px;
+	left:10px;
+	font-size: 15px;
+	color: #AAA;
+	font-weight: 600;
+}
+#cycle_show div.cycle_word div.cycle_service label.lb_b{
+	position: absolute;
+	top:5px;
+	left: 120px;
+	font-size: 15px;
+	color: blue;
+	font-weight: 600;
+	
+}
+#cycle_show div.cycle_word div.cycle_bt{
+	top:30px;
+	height: 60px;
+	
+	
+}
+#cycle_show div.cycle_word div.cycle_bt input.input_buy{
+	position:absolute;
+	top:5px;
+	left:150px;
+	width: 150px;
+	height: 40px;
+	font-size: 18px;
+	color:#CF0000;
+	background-color: #AAA;
+	border: 1px #CF0000 solid;
+	cursor: hand;
+}
+#cycle_show div.cycle_word div.cycle_bt input.input_buycar{
+	position:absolute;
+	top:5px;
+	left:320px;
+	width: 150px;
+	height: 40px;
+	font-size: 18px;
+	background-color: #CF0000;
+	color: white;
+	border: none;
+	cursor: hand;
+}
+#cycle_show div.cycle_word div.cycle_way{
+	top:50px;
+	
+	height: 30px;
+	
+	
+}
+#cycle_show div.cycle_word div.cycle_way label.lb_payway{
+	position: absolute;
+	top:5px;
+	right: 0px;
+	font-size: 10px;
+	color: #AAA;
+	font-weight: 600;
+}
+#other_cycle{
+	
+	position: relative;
+	float: left;
+    left:100px;
+	width: 200px;
+	height: 600px;
+	background-color: black;
+}
+#cycle_message{
+	position: relative;
+	left:80px;
+	margin-top:600px;
+	width: 1000px;
+	min-height:600px;
+	height:auto;
+	background-color: #FFF;
+	border: 1px #AAA solid;
+	
+}
+
+
+
+
+
+
+
